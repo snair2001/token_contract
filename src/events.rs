@@ -77,3 +77,5 @@ pub struct NftTransferLog {
     #[serde(skip_serializing_if = "Option::is_none")]
     pub memo: Option<String>,
 }
+
+// test functions were removed 
