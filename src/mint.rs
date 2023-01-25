@@ -12,11 +12,11 @@ impl Contract{
         perpetual_royalties: Option<HashMap<AccountId, u32>>,
     ) {
 
-        assert_eq!(
+        /*assert_eq!(
             env::predecessor_account_id(),
             self.owner_id,
             "only owner"
-        );
+        );*/
         
         let initial_storage_usage = env::storage_usage();
 

@@ -61,7 +61,8 @@ impl Contract {
                 name: "Ignitus Contract".to_string(),
                 symbol: "NFT".to_string(),
                 icon: Some("https://cdn-icons-png.flaticon.com/512/6229/6229038.png".to_string()), // An icon I found online
-                base_uri: Some("https://ipfs.infura.io/ipfs".to_string()),  // Using infura's free node to put on ipfs
+                //base_uri: Some("https://ipfs.infura.io/ipfs".to_string()),  // Using infura's free node to put on ipfs
+				base_uri: Some("https://gateway.pinata.cloud/ipfs/".to_string()),  // Using Pinata's free node to put on ipfs
                 reference: None,
                 reference_hash: None,
             },
